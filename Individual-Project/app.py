@@ -68,6 +68,10 @@ def signin():
 def about_us():
 	return render_template("about_us.html")
 
+@app.route('/css')
+def css():
+	return render_template("Css.html")
+
 
 
 
