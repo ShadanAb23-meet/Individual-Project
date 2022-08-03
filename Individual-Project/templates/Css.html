@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Home</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="/static/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<style>
+.jumbotron {
+	background-image: linear-gradient(to bottom, rgba(255,255,255,0.4) 0%,rgba(255,255,255,0.4) 100%), url("https://maxx.discount/about-maxx-discount/");
+  	background-size: cover;
+    padding: 150px 25px;
+}
+</style>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+		  <div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			  <span class="icon-bar"></span>
+			</button>
+		  </div>
+		  <div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+			  <li><a href="/">ABOUT</a></li>
+			  <li><a href="store">WORKINGONIT</a></li>
+			  <li><a href="cart">CART</a></li>
+			  <li><a href="identifier">(IS IT A CARROT?)</a></li>
+			</ul>
+		  </div>
+		</div>
+	</nav>
+
+	<div class="jumbotron text-center">
+		<h1>Carrot Central</h1>
+		<p>Your one-stop shop for carrots</p>
+	</div>
+			
+	<div class="container-fluid text-center">
+		<h2>About Us</h2>
+		<h4>We think carrots are underappreciated...</h4>
+		<p>...so we started this shop. Buy carrots, learn about carrots, and find fellow carrot enthusiasts near you.</p>
+	</div>
+
+	<div class="container-fluid text-center">
+		<h2>Services</h2>
+		<h4>What we offer</h4>
+		<br>
+		<div class="row">
+			<div class="col-sm-4">
+				<span class="fas fa-carrot"></span>
+				<h4>Online Store</h4>
+				<p>Free next-month delivery worldwide</p>
+			</div>
+			<div class="col-sm-4">
+				<span class="fas fa-carrot"></span>
+				<h4>Carrot Education</h4>
+				<p>Learn fascinating facts about carrots</p>
+			</div>
+			<div class="col-sm-4">
+				<span class="fas fa-carrot"></span>
+				<h4>Memberships</h4>
+				<p>Join a carrot club near you</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid text-center">
+		<h2>What Our Customers Say</h2>
+		<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+			<!-- Indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+					<h4>"I have a new appreciation for carrots"<br><span style="font-style:normal;">New carrot lover</span></h4>
+				</div>
+				<div class="item">
+					<h4>"Carrots are cool"<br><span style="font-style:normal;">Cool carrot kid</span></h4>
+				</div>
+				<div class="item">
+					<h4>"I care about carrots"<br><span style="font-style:normal;">Healthy carrot</span></h4>
+				</div>
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
